@@ -23,3 +23,9 @@ To test and use the code presented in this book, you need only Android Studio in
 
 * [Learning Android Application Development](https://www.packtpub.com/application-development/learning-android-application-development?utm_source=github&utm_medium=repository&utm_campaign=9781785286117)
 
+
+## 关于IDE和运行
+
+ide选择android studio。
+
+运行：由于没有使用gradle管理，直接在ide里运行较为繁琐，没有各种环境变量。但是可以在kotinREPL中运行，但是要去掉main函数。
