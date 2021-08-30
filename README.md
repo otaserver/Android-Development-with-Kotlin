@@ -26,6 +26,10 @@ To test and use the code presented in this book, you need only Android Studio in
 
 ## 关于IDE和运行
 
-ide选择android studio。
+ide选择idea，不推荐使用android studio，因为android studio执行代码不显示结果。
 
 运行：由于没有使用gradle管理，直接在ide里运行较为繁琐，没有各种环境变量。但是可以在kotinREPL中运行，但是要去掉main函数。
+
+使用gradle init命令新建了gradle环境。仿照另一本书《kotlin从基础到实战》的gradle脚本移植到本书中，前提时需要把章节代码拷贝到src目录下。
+
+由于官方给的源码许多是示例，并非可以直接运行的代码，故将自己修改后的代码，放在了src\main\kotlin中，凡是和根目录中的文件冲突的就是自己修改的版本。
