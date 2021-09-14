@@ -11,6 +11,10 @@ fun BClass.foo() {
     println("foo(B)")
 }
 
+fun callFunction() {
+    println("就是测试顶级函数的调用")
+}
+
 fun main(args: Array<String>) {
     val b = BClass()
     b.foo()   //foo(B)

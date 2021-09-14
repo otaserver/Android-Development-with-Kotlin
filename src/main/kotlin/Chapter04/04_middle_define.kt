@@ -25,7 +25,7 @@ fun main(args: Array<String>) {
 
     //实例2：自定义的中缀函数
     val pointA = Point(1, 4)
-    val pointB = pointA moveRight 2
+    val pointB = pointA moveRight 2//没有使用点号操作符(即点)和调用操作符(即括号)，中缀标识仅是外观不同，但仍可视为常规的方法调用。
     println(pointB)
 
 }
